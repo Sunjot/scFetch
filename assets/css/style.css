@@ -1,0 +1,81 @@
+/* ELEMENTS */
+
+body {
+    background-color: white;
+    font-family: 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif;
+    font-size: 15px;
+}
+
+input {
+	Height: 25px;
+	Width: 250px;
+	padding: 4px 4px 4px 4px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+/* ID ATTRIBUTES */
+
+#list {
+  	position: absolute;
+  	margin-top: 10px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	left: 0;
+  	right: 0;
+}
+
+/* CLASS ATTRIBUTES */
+
+.parent {
+	display: block;
+	width: 350px;
+	height: 20px;
+	margin-bottom: 3px;
+	padding: 5px 10px;
+	font-size: 120%;
+	font-weight: 200;
+	color: #505050;
+	background: #f1f1f1;
+	opacity: 0.7;
+}
+
+.keyword {
+	float: left;
+}
+
+.remove {
+	cursor: pointer;
+	opacity: 0.5;
+	float: right;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: auto;
+  padding: 0 15px;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.page-header {
+  max-width: 680px;
+}
+
+.main-header {
+  font-weight: lighter;
+}
+
+.form-control {
+  max-width: 400px;
+}

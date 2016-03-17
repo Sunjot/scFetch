@@ -1,0 +1,60 @@
+
+<html>
+<center>
+<head>
+	<title>Soundcloud Fetch</title>
+</head>
+
+<script src="jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/fetch.js" type="text/javascript"></script>
+<script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
+<body>
+
+	<div class="page-header">
+		<h1 class="main-header">Soundcloud Fetch</h1>
+	</div>
+
+  <img src="assets/img/sc.png" width="340px" height="150px"/>
+  <br><br>
+
+  <form>
+		<div class="form-group">
+    	<label>Enter a playlist link:</label>
+    	<input type="playlist" id="linktext" class="form-control" placeholder="Playlist link">
+  </div>
+  	<button type="button" id="fetchbutton" class="btn btn-default" data-toggle="modal" data-target="#myModal">Fetch</button>
+  </form>
+
+	<!-- Modal code obtained from http://getbootstrap.com/javascript/#modals -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Results</h4>
+	      </div>
+	      <div class="modal-body">
+	        No functionality yet.
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+</body>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted"> <a href="http://github.com/sunjot/scFetch"> More information</a> </p>
+  </div>
+</footer>
+
+</center>
+</html>
